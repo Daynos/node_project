@@ -1,0 +1,107 @@
+<page>
+    <title>Landmark Data:Black Cloth</title>
+    <revision>
+      <timestamp>2016-04-16T20:00:00+02:00</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+      </contributor>
+      <comment>Import</comment>
+      <text xml:space="preserve">{{Landmark Item Data
+|deleted=Non
+|date=2016/03/21
+|updated=2016/03/21
+|icon=
+|id=Black Cloth
+|name=Black Cloth
+|description=Woven range fabric created using [[Tree Fiber]] and a combination of [[Cut Emerald]] and [[Cut Diaamond]] at a [[Replicator]].
+|comment=Textile
+|supercategory=Resource
+|category=Textile,
+|quality=Superior
+}}
+}}&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;
+        </text>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+    <page>
+    <title>Black Cloth</title>
+    <revision>
+      <timestamp>2016-04-16T20:00:00+02:00</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+      </contributor>
+      <comment>Import</comment>
+      <text xml:space="preserve">{{Landmark Item}}
+{{Landmark Item Complement (intro)}}
+{{Landmark Item Complement (top)}}
+
+== Notes de version ==
+{| class="wikitable"
+|-
+! Date !! Modification apportée !! Ancienne valeur
+|-
+| 21/03/2016 || Ajout au jeu || -
+|}
+
+{{Landmark Item Complement (bottom)}}
+</text>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Black Cloth (Replicator)</title>
+    <revision>
+      <timestamp>2016-04-16T20:00:00+02:00</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+      </contributor>
+      <comment>Import</comment>
+      <text xml:space="preserve">{{Landmark Design
+|id=Landmark Design:Black Cloth (Replicator)
+|creates=Black Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Emerald
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Diaamond
+}}
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Black Cloth (Lumen Station)</title>
+    <revision>
+      <timestamp>2016-04-16T20:00:00+02:00</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+      </contributor>
+      <comment>Import</comment>
+      <text xml:space="preserve">{{Landmark Design
+|id=Landmark Design:Black Cloth (Lumen Station)
+|creates=Black Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+  </page>
