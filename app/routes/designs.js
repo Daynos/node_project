@@ -7,7 +7,7 @@ var express = require('express'),
     bodyParser = require('body-parser'), //parses information from POST
     methodOverride = require('method-override'); //used to manipulate POST
 
-var ItemData = require('../models/itemData.js');
+//var ItemData = require('../models/designs.js');
 
 router.use(bodyParser.urlencoded({ extended: true }))
 router.use(methodOverride(function(req, res) {
@@ -27,15 +27,10 @@ function formatDate(date) {
     return moment(date, 'YYYYMMDD').format('YYYY/MM/DD');
 }
 
-function formatBoolean(booleanValue) {
-    return booleanValue ? 'Oui' : 'Non';
-}
-
 router.route('/:item_id')
     .get(function(req, res) {
-        var xmlTemplate = 'output/xml/page/itemData',
-            jsonFile = path.resolve(global.appRoot, 'datas/json/' + req.params.item_id + '.json'),
-            jsonData;
+        var xmlTemplate = 'output/xml/designs',
+            jsonFile = path.resolve(global.appRoot, 'datas/json/' + req.params.item_id + '.json');
 
         fs.readFile(jsonFile, 'utf8', function(err, data) {
             var jsonData;
@@ -45,12 +40,7 @@ router.route('/:item_id')
             }
 
             jsonData = JSON.parse(data);
-            jsonData.title = 'Landmark Data:' + jsonData.itemData.name;
             jsonData.timestamp = getTimestamp();
-
-            jsonData.itemData.deleted = formatBoolean(jsonData.itemData.deleted);
-            jsonData.itemData.created = formatDate(jsonData.itemData.created);
-            jsonData.itemData.updated = formatDate(jsonData.itemData.updated);
 
             res.render(xmlTemplate, jsonData);
         });

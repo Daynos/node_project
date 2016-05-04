@@ -1,0 +1,14 @@
+{# /views/output/xml/item.twig #}
+{% extends "./page.twig" %}
+{% block content %}
+{% verbatim %}
+{{Landmark Item Data
+{% endverbatim %}
+{% for property, value in itemData %}
+|{{property}}={{value}}
+{% endfor %}
+{% verbatim %}
+}}
+}}&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;
+{% endverbatim %}
+{% endblock %}

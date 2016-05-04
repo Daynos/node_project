@@ -1,0 +1,23 @@
+{# /views/output/xml/item.twig #}
+{% extends "./page.twig" %}
+{% block content %}
+{% verbatim %}
+{{Landmark Item}}
+{{Landmark Item Complement (intro)}}
+{{Landmark Item Complement (top)}}
+
+== Notes de version ==
+{| class="wikitable"
+|-
+! Date !! Modification apportée !! Ancienne valeur
+{% endverbatim %}
+{% for line in item.history %}
+|-
+| {{ line.date }} || {{ line.new }} || {{ line.old }}
+{% endfor %}
+{% verbatim %}
+|}
+
+{{Landmark Item Complement (bottom)}}
+{% endverbatim %}
+{% endblock %}

@@ -29,8 +29,8 @@ function formatDate(date) {
 
 router.route('/:item_id')
     .get(function(req, res) {
-        var xmlTemplate = 'output/xml/item',
-            jsonFile = path.resolve(appRoot, 'datas/json/' + req.params.item_id + '.json'),
+        var xmlTemplate = 'output/xml/page/item',
+            jsonFile = path.resolve(global.appRoot, 'datas/json/' + req.params.item_id + '.json'),
             jsonData;
 
         fs.readFile(jsonFile, 'utf8', function(err, data) {

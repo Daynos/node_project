@@ -1,4 +1,4 @@
-// app/models/bear.js
+// app/models/itemData.js
 
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;

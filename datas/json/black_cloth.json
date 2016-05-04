@@ -21,18 +21,26 @@
         "quality": "Superior"
     },
     "designs": [{
-        "creates": "Black Cloth",
+        "name": "Black Cloth",
         "quantity": 750,
         "craftingStation": "Replicator",
         "components": [{
                 "quantity": 50,
-                "component": "Tree Fiber"
+                "name": "Tree Fiber"
             }, {
                 "quantity": 25,
-                "component": "Cut Emerald"
+                "name": "Cut Emerald"
             }, {
                 "quantity": 25,
-                "component": "Cut Diamond"
+                "name": "Cut Diamond"
+            }]
+    },{
+        "name": "Black Cloth",
+        "quantity": 9000,
+        "craftingStation": "Lumen Station",
+        "components": [{
+                "quantity": 130,
+                "name": "Lumen"
             }]
     }]
 }

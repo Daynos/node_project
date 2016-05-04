@@ -13,14 +13,15 @@ var express = require('express'),
 var app = express();
 
 // Models 
-var db = require('./app/models/db'),
+var //db = require('./app/models/db'),
     lastModel = true;
 
 // Routes
 var indexRoutes = require('./app/routes/index'),
-    bearsRoutes = require('./app/routes/bears'),
+    //bearsRoutes = require('./app/routes/bears'),
     itemRoutes = require('./app/routes/item'),
     itemDataRoutes = require('./app/routes/itemData'),
+    designsRoutes = require('./app/routes/designs'),
     lastRoutes = true;
 
 var PORT = process.env.PORT || 3000;
@@ -56,9 +57,10 @@ app.set("twig options", {
 // ROUTES FOR OUR API
 // =============================================================================
 app.use('/', indexRoutes);
-app.use('/api', bearsRoutes);
+//app.use('/api', bearsRoutes);
 app.use('/item', itemRoutes);
 app.use('/itemData', itemDataRoutes);
+app.use('/designs', designsRoutes);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
