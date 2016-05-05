@@ -7,7 +7,7 @@ var express = require('express'),
     bodyParser = require('body-parser'), //parses information from POST
     methodOverride = require('method-override'); //used to manipulate POST
 
-var ItemData = require('../models/item.js');
+//var ItemData = require('../models/item.js');
 
 router.use(bodyParser.urlencoded({ extended: true }))
 router.use(methodOverride(function(req, res) {
@@ -29,7 +29,7 @@ function formatDate(date) {
 
 router.route('/:item_id')
     .get(function(req, res) {
-        var xmlTemplate = 'output/xml/page/item',
+        var xmlTemplate = 'output/xml/mediawiki',
             jsonFile = path.resolve(global.appRoot, 'datas/json/' + req.params.item_id + '.json'),
             jsonData;
 
@@ -41,10 +41,21 @@ router.route('/:item_id')
             }
 
             jsonData = JSON.parse(data);
-            jsonData.title = jsonData.item.name;
             jsonData.timestamp = getTimestamp();
 
-            res.render(xmlTemplate, jsonData);
+            res.render(xmlTemplate, jsonData, function(err, html) {
+                var filename = global.appRoot + '/tmp/' + req.params.item_id + '.xml';
+                fs.writeFile(filename, html, function(err) {
+                    if (err) {
+                        return console.log(err);
+                    }
+
+                    console.log('The file `'+filename+'` was saved!');
+
+                    res.sendFile(filename);
+                });
+
+            });
         });
     });
 

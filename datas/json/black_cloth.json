@@ -8,12 +8,12 @@
         }]
     },
     "itemData": {
-        "name": "Black Cloth",
+        "id": "Black Cloth",
         "deleted": false,
         "created": "20160321",
         "updated": "20160321",
         "icon": "",
-        "id": "Black Cloth",
+        "name": "Black Cloth",
         "description": "Woven range fabric created using [[Tree Fiber]] and a combination of [[Cut Emerald]] and [[Cut Diamond]] at a [[Replicator]].",
         "comment": "Textile",
         "supercategory": "Resource",

@@ -1,0 +1,18 @@
+{# /views/output/xml/designs.twig #}
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="fr">
+{%- include './page/item.twig' with {
+    item: item,
+    timestamp: timestamp,
+    title: itemData.id
+    } only -%}
+{%- include './page/itemData.twig' with {
+    itemData: itemData,
+    timestamp: timestamp,
+    title: 'Landmark Data:' ~ itemData.id
+    } only -%}
+{%- include './page/designs.twig' with {
+    designs: designs,
+    timestamp: timestamp,
+    itemId: itemData.id
+    } only -%}
+</mediawiki>

@@ -1,12 +1,12 @@
 {# /views/output/xml/designs.twig #}
 {% extends "./page.twig" %}
 {%- block content -%}
-{% include '../landmarkDesign.twig' %}
-{% for component in design.components %}
-{% include '../landmarkDesignComponentData.twig' with {
+{% include '../template/landmarkDesign.twig' %}
+{%- for component in design.components -%}
+{% include '../template/landmarkDesignComponentData.twig' with {
     component: component
     } only %}
-{% endfor %}
+{%- endfor -%}
 {% verbatim %}
 &lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;
 {% endverbatim %}

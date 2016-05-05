@@ -1,8 +1,0 @@
-{# /views/output/xml/designs.twig #}
-{% for design in designs %}
-{% include './page/design.twig' with {
-    title: 'Landmark Design:' ~ design.name ~ ' (' ~ design.craftingStation ~ ')', 
-    timestamp: timestamp,
-    design: design
-    } only %}
-{% endfor %}
