@@ -19,6 +19,7 @@ var //db = require('./app/models/db'),
 // Routes
 var indexRoutes = require('./app/routes/index'),
     itemRoutes = require('./app/routes/item'),
+    importRoutes = require('./app/routes/import'),
     lastRoutes = true;
 
 var PORT = process.env.PORT || 3000;
@@ -55,6 +56,7 @@ app.set("twig options", {
 // =============================================================================
 app.use('/', indexRoutes);
 app.use('/item', itemRoutes);
+app.use('/import', importRoutes);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

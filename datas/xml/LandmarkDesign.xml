@@ -1,0 +1,1794 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+  <siteinfo>
+    <sitename>Le wiki Landmark - JeuxOnLine</sitename>
+    <dbname>wiki_landmark</dbname>
+    <base>http://landmark.wiki.jeuxonline.info/wiki/Accueil</base>
+    <generator>MediaWiki 1.25.2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Landmark</namespace>
+      <namespace key="5" case="first-letter">Discussion Landmark</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="102" case="first-letter">Attribut</namespace>
+      <namespace key="103" case="first-letter">Discussion attribut</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Formulaire</namespace>
+      <namespace key="107" case="first-letter">Discussion formulaire</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Discussion concept</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Landmark Design:Cut Alabaster (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7249</id>
+    <revision>
+      <id>28539</id>
+      <parentid>28536</parentid>
+      <timestamp>2016-04-11T20:44:48Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="285">{{Landmark Design
+|id=Landmark Design:Cut Alabaster (Lumen Station)
+|creates=Cut Alabaster
+|quantity=7500
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>13q1i4e8zs2vy0umzpnc6a83bqfl6bq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Alabaster (Replicator)</title>
+    <ns>0</ns>
+    <id>7246</id>
+    <revision>
+      <id>28540</id>
+      <parentid>28518</parentid>
+      <timestamp>2016-04-11T20:46:26Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Cut Alabaster (Replicator)
+|creates=Cut Alabaster
+|crafting station=Replicator
+|quantity=750
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Alabaster
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>1nnl94jahik8xaj1p1l8z0jzexf2etw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Preload:Landmark Design Data</title>
+    <ns>0</ns>
+    <id>7257</id>
+    <revision>
+      <id>28538</id>
+      <parentid>28520</parentid>
+      <timestamp>2016-04-11T20:43:38Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">&lt;includeonly&gt;&lt;no&lt;includeonly&gt;&lt;/includeonly&gt;include&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/no&lt;includeonly&gt;&lt;/includeonly&gt;include&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+Contenu inséré par défaut lors de l'ajout d'un plan via le formulaire
+[[Catégorie:Formulaires]]
+&lt;/noinclude&gt;</text>
+      <sha1>dt7uubo6w8rj0htfc9z7ixl1119u9c9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Burled Wood (Replicator)</title>
+    <ns>0</ns>
+    <id>7259</id>
+    <revision>
+      <id>28546</id>
+      <timestamp>2016-04-11T21:01:33Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Burled Wood (Replicator) |creates=Cut Burled Wood |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="287">{{Landmark Design
+|id=Landmark Design:Cut Burled Wood (Replicator)
+|creates=Cut Burled Wood
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Burled Wood
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>jg0rjszewk3vjluz8j7qhqsgf46ukio</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Burled Wood (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7260</id>
+    <revision>
+      <id>28548</id>
+      <timestamp>2016-04-11T21:03:29Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Burled Wood (Lumen Station) |creates=Cut Burled Wood |quantity=12000 |crafting station=Lumen Station }} {{Landmark Design Compone... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="290">{{Landmark Design
+|id=Landmark Design:Cut Burled Wood (Lumen Station)
+|creates=Cut Burled Wood
+|quantity=12000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>j51oo6tlz6w25cq91b4amm42djbs2o5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Plain Wood (Replicator)</title>
+    <ns>0</ns>
+    <id>7261</id>
+    <revision>
+      <id>28551</id>
+      <timestamp>2016-04-11T21:06:16Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Plain Wood (Replicator) |creates=Cut Plain Wood |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |q... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="284">{{Landmark Design
+|id=Landmark Design:Cut Plain Wood (Replicator)
+|creates=Cut Plain Wood
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Plain Wood
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>t83vidmze6nqwqktylj40r0hh5tbshl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Striped Wood (Replicator)</title>
+    <ns>0</ns>
+    <id>7262</id>
+    <revision>
+      <id>28552</id>
+      <timestamp>2016-04-11T21:07:43Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Striped Wood (Replicator) |creates=Cut Striped Wood |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Dat... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="290">{{Landmark Design
+|id=Landmark Design:Cut Striped Wood (Replicator)
+|creates=Cut Striped Wood
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Striped Wood
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>b3snlvoiwm2uztdnb6rcb0v7qq0yzpd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Marble (Replicator)</title>
+    <ns>0</ns>
+    <id>7263</id>
+    <revision>
+      <id>28556</id>
+      <timestamp>2016-04-11T21:10:02Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Marble (Replicator) |creates=Cut Marble |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quantity=... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="273">{{Landmark Design
+|id=Landmark Design:Cut Marble (Replicator)
+|creates=Cut Marble
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Marble
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>spem8kwdzc7eeua8cw6bjfd0kcly770</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Amaranthine (Replicator)</title>
+    <ns>0</ns>
+    <id>7264</id>
+    <revision>
+      <id>28560</id>
+      <parentid>28557</parentid>
+      <timestamp>2016-04-11T21:13:07Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="288">{{Landmark Design
+|id=Landmark Design:Cut Amaranthine (Replicator)
+|creates=Cut Amaranthine
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Amaranthine
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>c3pjulmlz9w0es8yrd8ngnnj2achogq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Obsidian (Replicator)</title>
+    <ns>0</ns>
+    <id>7265</id>
+    <revision>
+      <id>28559</id>
+      <parentid>28558</parentid>
+      <timestamp>2016-04-11T21:12:51Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="279">{{Landmark Design
+|id=Landmark Design:Cut Obsidian (Replicator)
+|creates=Cut Obsidian
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Obsidian
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>dfmwngr52c32jsmr0oj8ckbsusuq4hj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Agate (Replicator)</title>
+    <ns>0</ns>
+    <id>7266</id>
+    <revision>
+      <id>28561</id>
+      <timestamp>2016-04-11T21:16:36Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Agate (Replicator) |creates=Cut Agate |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quantity=25... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="270">{{Landmark Design
+|id=Landmark Design:Cut Agate (Replicator)
+|creates=Cut Agate
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Agate
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>c84iwzgm8jm24fl1m15q2gsovb1kh42</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Sapphire (Replicator)</title>
+    <ns>0</ns>
+    <id>7267</id>
+    <revision>
+      <id>28562</id>
+      <timestamp>2016-04-11T21:16:48Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Sapphire (Replicator) |creates=Cut Sapphire |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quant... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="279">{{Landmark Design
+|id=Landmark Design:Cut Sapphire (Replicator)
+|creates=Cut Sapphire
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Sapphire
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>onekvmv84bm618dlwp7g2v7wfxfbu47</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Ruby (Replicator)</title>
+    <ns>0</ns>
+    <id>7268</id>
+    <revision>
+      <id>28563</id>
+      <timestamp>2016-04-11T21:17:14Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Ruby (Replicator) |creates=Cut Ruby |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quantity=250... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="267">{{Landmark Design
+|id=Landmark Design:Cut Ruby (Replicator)
+|creates=Cut Ruby
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Ruby
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>o1fefn3y1msut41xi6b8e2tjbujyuxr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Emerald (Replicator)</title>
+    <ns>0</ns>
+    <id>7269</id>
+    <revision>
+      <id>28564</id>
+      <timestamp>2016-04-11T21:17:30Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Emerald (Replicator) |creates=Cut Emerald |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quantit... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="276">{{Landmark Design
+|id=Landmark Design:Cut Emerald (Replicator)
+|creates=Cut Emerald
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Emerald
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>9dbxb9ddybjsm13u5f85qoce9os59nz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Diamond (Replicator)</title>
+    <ns>0</ns>
+    <id>7270</id>
+    <revision>
+      <id>28565</id>
+      <timestamp>2016-04-11T21:17:44Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Diamond (Replicator) |creates=Cut Diamond |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quantit... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="276">{{Landmark Design
+|id=Landmark Design:Cut Diamond (Replicator)
+|creates=Cut Diamond
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Diamond
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>qk1d3768ac96z4s6owy0vk2mi9flw50</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Skystone (Replicator)</title>
+    <ns>0</ns>
+    <id>7271</id>
+    <revision>
+      <id>28566</id>
+      <timestamp>2016-04-11T21:21:22Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Skystone (Replicator) |creates=Cut Skystone |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Data |quan... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="355">{{Landmark Design
+|id=Landmark Design:Cut Skystone (Replicator)
+|creates=Cut Skystone
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Agate
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Sapphire
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>3s7o453be6ovfiuaprp8scob8bez60g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Amethyn (Replicator)</title>
+    <ns>0</ns>
+    <id>7272</id>
+    <revision>
+      <id>28567</id>
+      <timestamp>2016-04-11T21:22:02Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Amethyn (Replicator) |creates=Cut Amethyn |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Data |quanti... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="352">{{Landmark Design
+|id=Landmark Design:Cut Amethyn (Replicator)
+|creates=Cut Amethyn
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Ruby
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Sapphire
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>jfuem0ygbdbsc8q6p86tqe9mcs2luzs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Tormeral (Replicator)</title>
+    <ns>0</ns>
+    <id>7273</id>
+    <revision>
+      <id>28568</id>
+      <timestamp>2016-04-11T21:23:12Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Tormeral (Replicator) |creates=Cut Tormeral |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Data |quan... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="353">{{Landmark Design
+|id=Landmark Design:Cut Tormeral (Replicator)
+|creates=Cut Tormeral
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Emerald
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Ruby
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>d14sq6csq31npa4z8k10n6zctnmcoky</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Sunstone (Replicator)</title>
+    <ns>0</ns>
+    <id>7274</id>
+    <revision>
+      <id>28569</id>
+      <timestamp>2016-04-11T21:25:04Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Sunstone (Replicator) |creates=Cut Sunstone |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Data |quan... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="354">{{Landmark Design
+|id=Landmark Design:Cut Sunstone (Replicator)
+|creates=Cut Sunstone
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Agate
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Diamond
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>a390dwo22ftda4ovnusvxrv2dkp095k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Omenstone (Replicator)</title>
+    <ns>0</ns>
+    <id>7275</id>
+    <revision>
+      <id>28570</id>
+      <timestamp>2016-04-11T21:26:06Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Omenstone (Replicator) |creates=Cut Omenstone |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Data |qu... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="355">{{Landmark Design
+|id=Landmark Design:Cut Omenstone (Replicator)
+|creates=Cut Omenstone
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Ruby
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Diamond
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>j76hw3x03fzee8dx1f107gbz31rh9zy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Moonstone (Replicator)</title>
+    <ns>0</ns>
+    <id>7276</id>
+    <revision>
+      <id>28571</id>
+      <timestamp>2016-04-11T21:27:05Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Moonstone (Replicator) |creates=Cut Moonstone |quantity=1500 |crafting station=Replicator }} {{Landmark Design Component Data |qu... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="432">{{Landmark Design
+|id=Landmark Design:Cut Moonstone (Replicator)
+|creates=Cut Moonstone
+|quantity=1500
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Sapphire
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Emerald
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Diamond
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>calofwc30d8i2h9tr9xgcarwwfs3563</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Copper (Replicator)</title>
+    <ns>0</ns>
+    <id>7277</id>
+    <revision>
+      <id>28572</id>
+      <timestamp>2016-04-11T21:30:05Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Copper (Replicator) |creates=Smelted Copper |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |q... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="285">{{Landmark Design
+|id=Landmark Design:Smelted Copper (Replicator)
+|creates=Smelted Copper
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Copper Ore
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>qel9sr9tc1xnsvnw2wbj7xffgb9df97</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Tin (Replicator)</title>
+    <ns>0</ns>
+    <id>7278</id>
+    <revision>
+      <id>28573</id>
+      <timestamp>2016-04-11T21:31:00Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Tin (Replicator) |creates=Smelted Tin |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quantit... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="276">{{Landmark Design
+|id=Landmark Design:Smelted Tin (Replicator)
+|creates=Smelted Tin
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Tin Ore
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>ra6ppncr6n6limqhqh5k57koz9k0znr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Iron (Replicator)</title>
+    <ns>0</ns>
+    <id>7279</id>
+    <revision>
+      <id>28574</id>
+      <timestamp>2016-04-11T21:31:13Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Iron (Replicator) |creates=Smelted Iron |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quant... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="279">{{Landmark Design
+|id=Landmark Design:Smelted Iron (Replicator)
+|creates=Smelted Iron
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Iron Ore
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>gjo4fkays9jpgw5bvujplun43ymp4a3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Silver (Replicator)</title>
+    <ns>0</ns>
+    <id>7280</id>
+    <revision>
+      <id>28575</id>
+      <timestamp>2016-04-11T21:31:50Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Silver (Replicator) |creates=Smelted Silver |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |q... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="285">{{Landmark Design
+|id=Landmark Design:Smelted Silver (Replicator)
+|creates=Smelted Silver
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Silver Ore
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>bkkj76m914rq1iubk8xxvegdk1uah35</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Gold (Replicator)</title>
+    <ns>0</ns>
+    <id>7281</id>
+    <revision>
+      <id>28576</id>
+      <timestamp>2016-04-11T21:32:06Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Gold (Replicator) |creates=Smelted Gold |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data |quant... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="279">{{Landmark Design
+|id=Landmark Design:Smelted Gold (Replicator)
+|creates=Smelted Gold
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Gold Ore
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>3rsjhepkbjr9wud0idegcifo3cx3la6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Solucite (Replicator)</title>
+    <ns>0</ns>
+    <id>7282</id>
+    <revision>
+      <id>28578</id>
+      <parentid>28577</parentid>
+      <timestamp>2016-04-11T21:33:54Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="367">{{Landmark Design
+|id=Landmark Design:Smelted Solucite (Replicator)
+|creates=Smelted Solucite
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Copper
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Tin
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>03ah34cavmfgp49iobkmmw6def32vly</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Druidium (Replicator)</title>
+    <ns>0</ns>
+    <id>7283</id>
+    <revision>
+      <id>28579</id>
+      <timestamp>2016-04-11T21:34:38Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Druidium (Replicator) |creates=Smelted Druidium |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Da... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="365">{{Landmark Design
+|id=Landmark Design:Smelted Druidium (Replicator)
+|creates=Smelted Druidium
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Tin
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Iron
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>lfmwx0lyx0a75fg0vkp289ckxa67ghu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Indicite (Replicator)</title>
+    <ns>0</ns>
+    <id>7284</id>
+    <revision>
+      <id>28580</id>
+      <timestamp>2016-04-11T21:35:08Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Indicite (Replicator) |creates=Smelted Indicite |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Da... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="368">{{Landmark Design
+|id=Landmark Design:Smelted Indicite (Replicator)
+|creates=Smelted Indicite
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Iron
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Silver
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>kq4ku8ohufjcv3wtc3pfg79osweur0y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Rubicite (Replicator)</title>
+    <ns>0</ns>
+    <id>7285</id>
+    <revision>
+      <id>28581</id>
+      <timestamp>2016-04-11T21:35:35Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Rubicite (Replicator) |creates=Smelted Rubicite |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Da... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="368">{{Landmark Design
+|id=Landmark Design:Smelted Rubicite (Replicator)
+|creates=Smelted Rubicite
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Copper
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Gold
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>adpwedjjgz30m2czp74n0vkleg5pr07</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Mithril (Replicator)</title>
+    <ns>0</ns>
+    <id>7286</id>
+    <revision>
+      <id>28582</id>
+      <timestamp>2016-04-11T21:36:17Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Mithril (Replicator) |creates=Smelted Mithril |quantity=1000 |crafting station=Replicator }} {{Landmark Design Component Data... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="364">{{Landmark Design
+|id=Landmark Design:Smelted Mithril (Replicator)
+|creates=Smelted Mithril
+|quantity=1000
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Iron
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Gold
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>5rjd03h43b1pufjlxuvx9p7hx8d8i8x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Smelted Etherium (Replicator)</title>
+    <ns>0</ns>
+    <id>7287</id>
+    <revision>
+      <id>28583</id>
+      <timestamp>2016-04-11T21:36:56Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Smelted Etherium (Replicator) |creates=Smelted Etherium |quantity=1500 |crafting station=Replicator }} {{Landmark Design Component Da... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="441">{{Landmark Design
+|id=Landmark Design:Smelted Etherium (Replicator)
+|creates=Smelted Etherium
+|quantity=1500
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Tin
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Silver
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Gold
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>n4js7rb51eigrkzx2vhnz1401zqqxl9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Affliction Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7288</id>
+    <revision>
+      <id>28593</id>
+      <timestamp>2016-04-15T21:38:24Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Affliction Essence (Lumen Station) |creates=Affliction Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Compo... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="292">{{Landmark Design
+|id=Landmark Design:Affliction Essence (Lumen Station)
+|creates=Affliction Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>qed2og08sp39hoxm25c8q2nfk89m08u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Radiance Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7295</id>
+    <revision>
+      <id>28611</id>
+      <timestamp>2016-04-16T16:49:52Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Radiance Essence (Lumen Station) |creates=Radiance Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Component... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="288">{{Landmark Design
+|id=Landmark Design:Radiance Essence (Lumen Station)
+|creates=Radiance Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>7fjx615inovbr8c9rjih93gikgw2xiq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Shadow Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7296</id>
+    <revision>
+      <id>28614</id>
+      <timestamp>2016-04-16T16:54:05Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Shadow Essence (Lumen Station) |creates=Shadow Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Component Dat... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="284">{{Landmark Design
+|id=Landmark Design:Shadow Essence (Lumen Station)
+|creates=Shadow Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>3rtvtpo56icghyjltkz8b266708br5j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Earth Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7297</id>
+    <revision>
+      <id>28624</id>
+      <timestamp>2016-04-16T17:10:46Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Earth Essence (Lumen Station) |creates=Earth Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Component Data... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Earth Essence (Lumen Station)
+|creates=Earth Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>ia1fltbhgiedrds5iji8oxsrj7tnioq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Lightning Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7298</id>
+    <revision>
+      <id>28625</id>
+      <timestamp>2016-04-16T17:11:06Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Lightning Essence (Lumen Station) |creates=Lightning Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Compone... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="290">{{Landmark Design
+|id=Landmark Design:Lightning Essence (Lumen Station)
+|creates=Lightning Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>qvcxm4g8zhg7lz8n76tgct5ijmlu1gc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Water Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7299</id>
+    <revision>
+      <id>28626</id>
+      <timestamp>2016-04-16T17:12:13Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Water Essence (Lumen Station) |creates=Water Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Component Data... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Water Essence (Lumen Station)
+|creates=Water Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>1trymln9dvu3u4byzypq4d1n47zj42r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Fire Essence (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7300</id>
+    <revision>
+      <id>28627</id>
+      <timestamp>2016-04-16T17:12:30Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Fire Essence (Lumen Station) |creates=Fire Essence |quantity=2 |crafting station=Lumen Station }} {{Landmark Design Component Data |q... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="280">{{Landmark Design
+|id=Landmark Design:Fire Essence (Lumen Station)
+|creates=Fire Essence
+|quantity=2
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>4pgoe65yvjyxe95n2b6373xl44tq4ka</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Orange Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7309</id>
+    <revision>
+      <id>28728</id>
+      <parentid>28727</parentid>
+      <timestamp>2016-04-16T18:14:52Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="349">{{Landmark Design
+|id=Landmark Design:Orange Cloth (Replicator)
+|creates=Orange Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Cut Agate
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>nfx2sa92eryh62nzqcyxu2q57lvpm04</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Orange Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7310</id>
+    <revision>
+      <id>28730</id>
+      <parentid>28729</parentid>
+      <timestamp>2016-04-16T18:14:52Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Orange Cloth (Lumen Station)
+|creates=Orange Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>4pu1u266i7uknwac33gvz9n6m8xucnx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Blue Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7313</id>
+    <revision>
+      <id>28736</id>
+      <parentid>28735</parentid>
+      <timestamp>2016-04-16T18:14:55Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="348">{{Landmark Design
+|id=Landmark Design:Blue Cloth (Replicator)
+|creates=Blue Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Cut Sapphire
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>si26qfdhndhunxd3ojjooya9hiagr7c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Blue Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7314</id>
+    <revision>
+      <id>28738</id>
+      <parentid>28737</parentid>
+      <timestamp>2016-04-16T18:14:56Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="278">{{Landmark Design
+|id=Landmark Design:Blue Cloth (Lumen Station)
+|creates=Blue Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>au4rvewisty61ywb5ngjtd77gws8dpe</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Red Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7317</id>
+    <revision>
+      <id>28744</id>
+      <parentid>28743</parentid>
+      <timestamp>2016-04-16T18:14:59Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="342">{{Landmark Design
+|id=Landmark Design:Red Cloth (Replicator)
+|creates=Red Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Cut Ruby
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>7kc96i0kptupxtbpezkptzbdhv8n7d9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Red Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7318</id>
+    <revision>
+      <id>28746</id>
+      <parentid>28745</parentid>
+      <timestamp>2016-04-16T18:14:59Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="276">{{Landmark Design
+|id=Landmark Design:Red Cloth (Lumen Station)
+|creates=Red Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>7rbi8ns5ju516tzxrnwr54kma5ljefg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Green Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7321</id>
+    <revision>
+      <id>28752</id>
+      <parentid>28751</parentid>
+      <timestamp>2016-04-16T18:15:02Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="349">{{Landmark Design
+|id=Landmark Design:Green Cloth (Replicator)
+|creates=Green Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Cut Emerald
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>rlyfeni1rxpc9von6zds5kp8lvuh4b3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Green Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7322</id>
+    <revision>
+      <id>28754</id>
+      <parentid>28753</parentid>
+      <timestamp>2016-04-16T18:15:03Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="280">{{Landmark Design
+|id=Landmark Design:Green Cloth (Lumen Station)
+|creates=Green Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>qo5hnf39adw3f9kvjb9a8rvdicvqytn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:White Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7325</id>
+    <revision>
+      <id>28760</id>
+      <parentid>28759</parentid>
+      <timestamp>2016-04-16T18:15:06Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="349">{{Landmark Design
+|id=Landmark Design:White Cloth (Replicator)
+|creates=White Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Cut Diamond
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>7ngwzq4reoxlr9vliv6a0ae6k3j3vph</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:White Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7326</id>
+    <revision>
+      <id>28762</id>
+      <parentid>28761</parentid>
+      <timestamp>2016-04-16T18:15:06Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="280">{{Landmark Design
+|id=Landmark Design:White Cloth (Lumen Station)
+|creates=White Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>o4kod8auk4z41qhddngo4gvc665osmx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Purple Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7329</id>
+    <revision>
+      <id>28768</id>
+      <parentid>28767</parentid>
+      <timestamp>2016-04-16T18:15:09Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="421">{{Landmark Design
+|id=Landmark Design:Purple Cloth (Replicator)
+|creates=Purple Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Sapphire
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Ruby
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>c73uh3bm54lgmme7p8stet6mfyozqxu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Purple Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7330</id>
+    <revision>
+      <id>28770</id>
+      <parentid>28769</parentid>
+      <timestamp>2016-04-16T18:15:10Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Purple Cloth (Lumen Station)
+|creates=Purple Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>s4ba3q2rlp6nvjzswaftzepbi9bo6re</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Yellow Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7333</id>
+    <revision>
+      <id>28776</id>
+      <parentid>28775</parentid>
+      <timestamp>2016-04-16T18:15:13Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="421">{{Landmark Design
+|id=Landmark Design:Yellow Cloth (Replicator)
+|creates=Yellow Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Agate
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Diamond
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>g2oapsx13pjk895wh1cprkos2kww0ps</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Yellow Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7334</id>
+    <revision>
+      <id>28778</id>
+      <parentid>28777</parentid>
+      <timestamp>2016-04-16T18:15:13Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Yellow Cloth (Lumen Station)
+|creates=Yellow Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>gpy3lm0ktkm3h872ib872dydzee3hbh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Pink Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7337</id>
+    <revision>
+      <id>28784</id>
+      <parentid>28783</parentid>
+      <timestamp>2016-04-16T18:15:16Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="416">{{Landmark Design
+|id=Landmark Design:Pink Cloth (Replicator)
+|creates=Pink Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Ruby
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Diamond
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>bbt1iz95v0qatcimsc6ujriae0d9j58</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Pink Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7338</id>
+    <revision>
+      <id>28786</id>
+      <parentid>28785</parentid>
+      <timestamp>2016-04-16T18:15:17Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="278">{{Landmark Design
+|id=Landmark Design:Pink Cloth (Lumen Station)
+|creates=Pink Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>pg6a98gt6ktlj1iw94hi1047pupyhlt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Black Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7341</id>
+    <revision>
+      <id>28792</id>
+      <parentid>28791</parentid>
+      <timestamp>2016-04-16T18:15:20Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="421">{{Landmark Design
+|id=Landmark Design:Black Cloth (Replicator)
+|creates=Black Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Emerald
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Diamond
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>758tq0ifow1lje8gt787kgalmknzz5u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Black Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7342</id>
+    <revision>
+      <id>28794</id>
+      <parentid>28793</parentid>
+      <timestamp>2016-04-16T18:15:20Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="280">{{Landmark Design
+|id=Landmark Design:Black Cloth (Lumen Station)
+|creates=Black Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>htle3qj57pcz4nj3na1adl3krez2prh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Molten Iron Orb (Replicator)</title>
+    <ns>0</ns>
+    <id>7354</id>
+    <revision>
+      <id>28814</id>
+      <timestamp>2016-04-18T21:25:29Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Molten Iron Orb (Replicator) |creates=Molten Iron Orb |quantity=1 |crafting station=Replicator }} {{Landmark Design Component Data |q... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="509">{{Landmark Design
+|id=Landmark Design:Molten Iron Orb (Replicator)
+|creates=Molten Iron Orb
+|quantity=1
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Copper
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Agate
+}}
+{{Landmark Design Component Data
+|quantity=1
+|component=Adventure Essence
+}}
+{{Landmark Design Component Data
+|quantity=3
+|component=Fire Essence
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>8m5amwzyu9tkbe8oezvcfgq5qtbvay2</sha1>
+    </revision>
+  </page>
+</mediawiki>
