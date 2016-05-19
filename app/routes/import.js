@@ -12,7 +12,7 @@ var strict = true,
     options = {
         trim: true,
     },
-    saxStream = require("sax").createStream(strict, options)
+    saxStream = require("sax").createStream(strict, options);
 
 //var ItemData = require('../models/item.js');
 
@@ -86,6 +86,7 @@ function addToJson(object) {
 }
 
 
+// === SAX STREAM
 
 saxStream.on("error", function(e) {
     // unhandled errors will throw, since this is a proper node 

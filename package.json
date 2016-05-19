@@ -18,7 +18,9 @@
     "mongoose": "^4.4.13",
     "morgan": "~1.6.1",
     "sax": "^1.2.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "underscore": "^1.8.3",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.9.1",

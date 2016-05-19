@@ -40,7 +40,7 @@ app.engine('twig', twig.__express);
 if (app.get('env') === 'development') {
     twig.cache(false);
 }
-app.set('views', path.join(__dirname, 'app/views'));
+app.set('views', path.join(__dirname, 'app/templates'));
 app.set('view engine', 'twig');
 /*app.set("view options", {
     layout: false
