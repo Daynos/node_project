@@ -5,7 +5,8 @@ var express = require('express'),
     moment = require('moment'),
     //mongoose = require('mongoose'), //mongo connection
     bodyParser = require('body-parser'), //parses information from POST
-    methodOverride = require('method-override'); //used to manipulate POST
+    methodOverride = require('method-override'), //used to manipulate POST
+    Parsoid = require('parsoid'); //npm Wiki Parser
 
 var merge = require('merge');
 var strict = true,
@@ -37,12 +38,59 @@ function closeNode(node) {
     currentDepth--;
 }
 
+function parseXmlText(name, attrs, text) {
+    switch (name) {
+        case 'text':
+            Parsoid.parse(text, { pdoc: true }).then(function(pdoc) {
+                var i,
+                    template,
+                    templates = pdoc.filterTemplates(),
+                    PNodeList;
+
+                for (i in templates) {
+                    template = templates[i];
+                    switch (template.name.trim()) {
+                        case 'Landmark Design':
+                            var id = template.get('id').value.get(0).toString();
+                            var name = template.get('creates').value.get(0).toString();
+                            var quantity = template.get('quantity').value.get(0).toString();
+                            var craftingStation = template.get('crafting station').value.get(0).toString();
+                            
+                            currentDesign = {
+                                name: name,
+                                quantity: quantity,
+                                craftingStation: craftingStation,
+                            };
+
+                            console.log('=================');
+                            console.log(currentDesign);
+
+                            break;
+                        case 'Landmark Design Component Data':
+                            //console.log(template.params);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }).done();
+
+            /*addToJson({
+                property: 'text',
+                value: text,
+            })*/
+            break;
+        default:
+            break;
+    }
+}
+
 function switchTag(name, attrs, text) {
     switch (name) {
-        case 'title':
-            console.log(attrs, text);
+        case 'text':
+            //console.log(attrs, text);
             addToJson({
-                property: 'title',
+                property: 'text',
                 value: text,
             })
             break;
@@ -53,7 +101,7 @@ function switchTag(name, attrs, text) {
 
 function addToJson(object) {
     var updateObject;
-    //console.log ('addToJson', object);
+    console.log('addToJson', object);
     switch (object.property) {
         case 'name':
             updateObject = {
@@ -82,7 +130,7 @@ function addToJson(object) {
                 break; */
     }
     merge.recursive(currentItem, updateObject);
-    console.log(currentItem);
+    //console.log(currentItem);
 }
 
 
@@ -111,11 +159,13 @@ saxStream.on('text', function(text) {
     //console.log(currentNode);
     if ('undefined' != typeof currentNode) {
         //console.log(currentNode);
-        switchTag(currentNode.name, currentNode.attrs, text);
+        parseXmlText(currentNode.name, currentNode.attrs, text);
     }
 });
 
 saxStream.on('end', function(name) {
+    console.log(currentDesign);
+    console.log(currentItem);
     console.log("saxStream END");
 });
 

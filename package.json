@@ -17,6 +17,7 @@
     "moment": "^2.13.0",
     "mongoose": "^4.4.13",
     "morgan": "~1.6.1",
+    "parsoid": "^0.4.1",
     "sax": "^1.2.1",
     "serve-favicon": "~2.3.0",
     "underscore": "^1.8.3",
