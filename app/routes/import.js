@@ -44,48 +44,68 @@ function parseXmlText(name, attrs, text) {
             Parsoid.parse(text, { pdoc: true }).then(function(pdoc) {
                 var i,
                     template,
+                    templateName = null,
                     templates = pdoc.filterTemplates(),
-                    PNodeList;
+                    updateObject = {},
+                    currentItemName = null;
 
                 for (i in templates) {
                     template = templates[i];
-                    switch (template.name.trim()) {
+                    templateName = template.name.trim();
+                    switch (templateName) {
                         case 'Landmark Design':
                             var id = template.get('id').value.get(0).toString();
                             var name = template.get('creates').value.get(0).toString();
                             var quantity = template.get('quantity').value.get(0).toString();
                             var craftingStation = template.get('crafting station').value.get(0).toString();
                             
-                            currentDesign = {
+                            currentItemName = name;
+
+                            updateObject = {
                                 name: name,
                                 quantity: quantity,
                                 craftingStation: craftingStation,
                             };
 
-                            console.log('=================');
-                            console.log(currentDesign);
+                            //console.log('========= LANDMARK DESIGN =========');
+                            //console.log(updateObject);
 
                             break;
                         case 'Landmark Design Component Data':
                             //console.log(template.params);
+                            if (!updateObject.components) {
+                                updateObject.components = [];
+                            }
+
+                            var name = template.get('component').value.get(0).toString();
+                            var quantity = template.get('quantity').value.get(0).toString();
+
+                            updateObject.components.push({
+                                quantity: quantity,
+                                name: name
+                            });
+
+                            //console.log('========= LANDMARK DESIGN COMPONENT DATA =========');
+                            //console.log(updateObject);
+                            
                             break;
                         default:
                             break;
                     }
                 }
+                
+                currentItem = loadJSON(currentItemName);
+                addToJson(templateName, updateObject);
+                
             }).done();
-
-            /*addToJson({
-                property: 'text',
-                value: text,
-            })*/
+            
             break;
         default:
             break;
     }
 }
 
-function switchTag(name, attrs, text) {
+/*function switchTag(name, attrs, text) {
     switch (name) {
         case 'text':
             //console.log(attrs, text);
@@ -97,40 +117,40 @@ function switchTag(name, attrs, text) {
         default:
             break;
     }
+}*/
+
+function loadJSON (itemName) {
+    var jsonFile = path.resolve(global.appRoot, 'datas/json/' + itemName + '.json');
+    
+    /*fs.readFile(jsonFile, 'utf8', function (err, data) {
+        if (err) {
+            throw err;
+        }
+        currentItem = JSON.parse(data, function(){
+            
+        });
+    });*/
+    return JSON.parse(fs.readFileSync(jsonFile));
 }
 
-function addToJson(object) {
+function addToJson(templateName, object) {
     var updateObject;
-    console.log('addToJson', object);
-    switch (object.property) {
-        case 'name':
+    
+    console.log('addToJson', templateName, object);
+
+    switch (templateName) {
+        case 'Landmark':
+            break;
+        case 'Landmark Design':
             updateObject = {
-                item: {
-                    name: object.value,
-                },
-                itemData: {
-                    id: object.value,
-                    name: object.value,
-                },
+                designs: object
             };
             break;
-        case 'description':
-            updateObject = {
-                itemData: {
-                    description: object.value,
-                },
-            };
-            break;
-            /*case 'craftingStation':
-                updateObject = {
-                    designs: [{
-                        craftingStation: object.value,
-                    }],
-                };
-                break; */
     }
     merge.recursive(currentItem, updateObject);
-    //console.log(currentItem);
+
+    //console.log('========= ADDTOJSON =========');    
+    console.log(currentItem);
 }
 
 

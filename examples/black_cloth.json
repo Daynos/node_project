@@ -1,0 +1,46 @@
+{
+    "item": {
+        "name": "Black Cloth",
+        "history": [{
+            "date": "20160321",
+            "new": "Ajout au jeu",
+            "old": ""
+        }]
+    },
+    "itemData": {
+        "id": "Black Cloth",
+        "deleted": false,
+        "created": "20160321",
+        "updated": "20160321",
+        "icon": "",
+        "name": "Black Cloth",
+        "description": "Woven range fabric created using [[Tree Fiber]] and a combination of [[Cut Emerald]] and [[Cut Diamond]] at a [[Replicator]].",
+        "comment": "Textile",
+        "supercategory": "Resource",
+        "category": ["Textile"],
+        "quality": "Superior"
+    },
+    "designs": [{
+        "name": "Black Cloth",
+        "quantity": 750,
+        "craftingStation": "Replicator",
+        "components": [{
+                "quantity": 50,
+                "name": "Tree Fiber"
+            }, {
+                "quantity": 25,
+                "name": "Cut Emerald"
+            }, {
+                "quantity": 25,
+                "name": "Cut Diamond"
+            }]
+    },{
+        "name": "Black Cloth",
+        "quantity": 9000,
+        "craftingStation": "Lumen Station",
+        "components": [{
+                "quantity": 130,
+                "name": "Lumen"
+            }]
+    }]
+}
