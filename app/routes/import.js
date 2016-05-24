@@ -20,8 +20,8 @@ var strict = true,
 var openedNodes = [];
 var currentDepth = 0;
 
-var currentItem = {};
-var currentDesign = {};
+//var currentItem = {};
+//var currentDesign = {};
 
 function openNode(node) {
     //console.log(node);
@@ -39,6 +39,10 @@ function closeNode(node) {
 }
 
 function parseXmlText(name, attrs, text) {
+    if ('' == text || null === text) {
+        return;
+    }
+
     switch (name) {
         case 'text':
             Parsoid.parse(text, { pdoc: true }).then(function(pdoc) {
@@ -46,8 +50,15 @@ function parseXmlText(name, attrs, text) {
                     template,
                     templateName = null,
                     templates = pdoc.filterTemplates(),
-                    updateObject = {},
+                    updateObject = {
+                        item: {},
+                        itemData: {},
+                        designs: []
+                    },
+                    currentItem = null,
+                    currentDesign = null,
                     currentItemName = null;
+                
 
                 for (i in templates) {
                     template = templates[i];
@@ -58,13 +69,13 @@ function parseXmlText(name, attrs, text) {
                             var name = template.get('creates').value.get(0).toString();
                             var quantity = template.get('quantity').value.get(0).toString();
                             var craftingStation = template.get('crafting station').value.get(0).toString();
-                            
-                            currentItemName = name;
 
-                            updateObject = {
+                            currentItemName = name;
+                            currentDesign = {
                                 name: name,
                                 quantity: quantity,
                                 craftingStation: craftingStation,
+                                components: [],
                             };
 
                             //console.log('========= LANDMARK DESIGN =========');
@@ -73,32 +84,33 @@ function parseXmlText(name, attrs, text) {
                             break;
                         case 'Landmark Design Component Data':
                             //console.log(template.params);
-                            if (!updateObject.components) {
-                                updateObject.components = [];
+                            if (!currentDesign.components) {
+                                currentDesign.components = [];
                             }
 
                             var name = template.get('component').value.get(0).toString();
                             var quantity = template.get('quantity').value.get(0).toString();
 
-                            updateObject.components.push({
+                            currentDesign.components.push({
                                 quantity: quantity,
                                 name: name
                             });
 
                             //console.log('========= LANDMARK DESIGN COMPONENT DATA =========');
                             //console.log(updateObject);
-                            
+
                             break;
                         default:
                             break;
                     }
                 }
-                
+
                 currentItem = loadJSON(currentItemName);
-                addToJson(templateName, updateObject);
-                
+                currentItem = addToJson(templateName, currentItem, updateObject);
+                saveJSON(currentItemName, currentItem);
+
             }).done();
-            
+
             break;
         default:
             break;
@@ -119,9 +131,10 @@ function parseXmlText(name, attrs, text) {
     }
 }*/
 
-function loadJSON (itemName) {
-    var jsonFile = path.resolve(global.appRoot, 'datas/json/' + itemName + '.json');
-    
+function loadJSON(itemName) {
+    var jsonFile = path.resolve(global.appRoot, 'datas/json/' + itemName + '.json'),
+        json = {};
+
     /*fs.readFile(jsonFile, 'utf8', function (err, data) {
         if (err) {
             throw err;
@@ -130,29 +143,62 @@ function loadJSON (itemName) {
             
         });
     });*/
-    return JSON.parse(fs.readFileSync(jsonFile));
+    try {
+        var json = JSON.parse(fs.readFileSync(jsonFile));
+    } catch (err) {
+
+    }
+
+    return json;
 }
 
-function addToJson(templateName, object) {
+function addToJson(templateName, currentItem, object) {
     var updateObject;
-    
-    console.log('addToJson', templateName, object);
+
+    console.log('addToJson', templateName, currentItem, object);
 
     switch (templateName) {
         case 'Landmark':
             break;
         case 'Landmark Design':
             updateObject = {
+                designs: [object]
+            };
+        case 'Landmark Design Data':
+            updateObject = {
                 designs: object
             };
             break;
     }
-    merge.recursive(currentItem, updateObject);
 
-    //console.log('========= ADDTOJSON =========');    
-    console.log(currentItem);
+    console.log('addToJson', currentItem, updateObject);
+
+    return merge.recursive(currentItem, updateObject);
 }
 
+function saveJSON(itemName, json) {
+    var jsonFile = path.resolve(global.appRoot, 'datas/json/' + itemName + '.json');
+
+    //console.log('saveJSON', itemName, json);
+
+    try {
+        fs.writeFile(jsonFile, JSON.stringify(json), 'utf8', function(err, data) {
+            if (err) {
+                console.log('`' + jsonFile + '` NOT saved');
+                throw err;
+            }
+            console.log('`' + jsonFile + '` saved');
+        });
+    } catch (e) {
+        if (err) {
+            console.log('`' + jsonFile + '` NOT saved');
+            throw err;
+        }
+
+    }
+
+    return true;
+}
 
 // === SAX STREAM
 
@@ -185,7 +231,6 @@ saxStream.on('text', function(text) {
 
 saxStream.on('end', function(name) {
     console.log(currentDesign);
-    console.log(currentItem);
     console.log("saxStream END");
 });
 

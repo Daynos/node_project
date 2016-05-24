@@ -35,3 +35,4 @@ node_modules
 # Sublime text
 *.sublime-project
 *.sublime-workspace
+datas/
