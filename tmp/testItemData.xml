@@ -1,0 +1,196 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+  <siteinfo>
+    <sitename>Le wiki Landmark - JeuxOnLine</sitename>
+    <dbname>wiki_landmark</dbname>
+    <base>http://landmark.wiki.jeuxonline.info/wiki/Accueil</base>
+    <generator>MediaWiki 1.25.2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Landmark</namespace>
+      <namespace key="5" case="first-letter">Discussion Landmark</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="102" case="first-letter">Attribut</namespace>
+      <namespace key="103" case="first-letter">Discussion attribut</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Formulaire</namespace>
+      <namespace key="107" case="first-letter">Discussion formulaire</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Discussion concept</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Landmark Data:Cut Alabaster</title>
+    <ns>0</ns>
+    <id>5145</id>
+    <revision>
+      <id>28376</id>
+      <parentid>25789</parentid>
+      <timestamp>2016-04-05T20:37:27Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="471">{{Landmark Item Data
+|deleted=Non
+|date=2014/12/17
+|updated=2016/03/21
+|icon=Icon resource stone alabaster worked 256.png
+|id=Cut Alabaster
+|basename=Alabaster
+|name=Cut Alabaster
+|description=Cut cream colored stone created using [[Alabaster]] at a [[Replicator]].
+|comment=Cut Stone
+|supercategory=Resource
+|category=Stone, Cut Stone,
+|quality=Superior
+|subcategory=Component
+}}
+&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;</text>
+      <sha1>6q72wz0yovfrb5tno3snb1nxe7w78kx</sha1>
+    </revision>
+  </page>
+    <page>
+    <title>Landmark Data:Cut Burled Wood</title>
+    <ns>0</ns>
+    <id>5263</id>
+    <revision>
+      <id>28352</id>
+      <parentid>25714</parentid>
+      <timestamp>2016-04-05T20:08:47Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="465">{{Landmark Item Data
+|deleted=Non
+|date=2014/12/17
+|updated=2016/03/21
+|icon=Wood-Cut Burled Wood.png
+|id=Cut Burled Wood
+|basename=Burled Wood
+|name=Cut Burled Wood
+|description=Cut softwood with a strong burled grain created using [[Burled Wood]] at a [[Replicator]].
+|comment=Cut Wood
+|supercategory=Resource
+|category=Cut Wood,
+|quality=Superior
+|subcategory=Cut Wood
+}}
+&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;</text>
+      <sha1>0jfof5qjx36wx0vgdf1ltp7ut7qj5dc</sha1>
+    </revision>
+  </page>  
+  <page>
+    <title>Landmark Data:Black Cloth</title>
+    <ns>0</ns>
+    <id>7339</id>
+    <revision>
+      <id>28810</id>
+      <parentid>28788</parentid>
+      <timestamp>2016-04-16T18:19:09Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="461">{{Landmark Item Data
+|deleted=Non
+|date=2016/03/21
+|updated=2016/03/21
+|icon=Icon resource fabric bolt black 256.png
+|id=Black Cloth
+|name=Black Cloth
+|description=Woven range fabric created using [[Tree Fiber]] and a combination of [[Cut Emerald]] and [[Cut Diamond]] at a [[Replicator]].
+|comment=Textile
+|supercategory=Resource
+|category=Textile,
+|quality=Superior
+}}
+&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;</text>
+      <sha1>sa9chcp2t3zen6dv67kih54jnnx8wxu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Data:Molten Iron Orb</title>
+    <ns>0</ns>
+    <id>7353</id>
+    <revision>
+      <id>28813</id>
+      <timestamp>2016-04-18T21:24:42Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Item Data |deleted=Non |date=2016/03/21 |updated=2016/03/21 |icon=Icon accessory orb liquidIron 256.png |id=Molten Iron Orb |name=Molten Iron Orb |supercategory... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="330">{{Landmark Item Data
+|deleted=Non
+|date=2016/03/21
+|updated=2016/03/21
+|icon=Icon accessory orb liquidIron 256.png
+|id=Molten Iron Orb
+|name=Molten Iron Orb
+|supercategory=Gear
+|category=Accessory,
+|essence=Fire Essence
+|abilities=Erupt
+}}
+&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;</text>
+      <sha1>n2p2nbgmyv5yc2eradwsj7vndbtx4x8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Data:Molten Iron Orb</title>
+    <ns>0</ns>
+    <id>7353</id>
+    <revision>
+      <id>28813</id>
+      <timestamp>2016-04-18T21:24:42Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Item Data |deleted=Non |date=2016/03/21 |updated=2016/03/21 |icon=Icon accessory orb liquidIron 256.png |id=Molten Iron Orb |name=Molten Iron Orb |supercategory... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="330">{{Landmark Item Data
+|deleted=Non
+|date=2016/03/21
+|updated=2016/03/21
+|icon=Icon accessory orb liquidIron 256.png
+|id=Molten Iron Orb
+|name=Molten Iron Orb
+|supercategory=Gear
+|category=Accessory,
+|essence=Fire Essence
+|abilities=Erupt
+}}
+&lt;noinclude&gt;{{Article principal|{{#var:id}}}} [[Catégorie:Landmark Item Data]]&lt;/noinclude&gt;</text>
+      <sha1>n2p2nbgmyv5yc2eradwsj7vndbtx4x8</sha1>
+    </revision>
+  </page>  
+</mediawiki>

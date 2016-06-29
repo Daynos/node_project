@@ -1,0 +1,278 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="fr">
+  <siteinfo>
+    <sitename>Le wiki Landmark - JeuxOnLine</sitename>
+    <dbname>wiki_landmark</dbname>
+    <base>http://landmark.wiki.jeuxonline.info/wiki/Accueil</base>
+    <generator>MediaWiki 1.25.2</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Landmark</namespace>
+      <namespace key="5" case="first-letter">Discussion Landmark</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="102" case="first-letter">Attribut</namespace>
+      <namespace key="103" case="first-letter">Discussion attribut</namespace>
+      <namespace key="104" case="first-letter">Type</namespace>
+      <namespace key="105" case="first-letter">Type talk</namespace>
+      <namespace key="106" case="first-letter">Formulaire</namespace>
+      <namespace key="107" case="first-letter">Discussion formulaire</namespace>
+      <namespace key="108" case="first-letter">Concept</namespace>
+      <namespace key="109" case="first-letter">Discussion concept</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Landmark Design:Cut Alabaster (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7249</id>
+    <revision>
+      <id>28539</id>
+      <parentid>28536</parentid>
+      <timestamp>2016-04-11T20:44:48Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="285">{{Landmark Design
+|id=Landmark Design:Cut Alabaster (Lumen Station)
+|creates=Cut Alabaster
+|quantity=7500
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>13q1i4e8zs2vy0umzpnc6a83bqfl6bq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Alabaster (Replicator)</title>
+    <ns>0</ns>
+    <id>7246</id>
+    <revision>
+      <id>28540</id>
+      <parentid>28518</parentid>
+      <timestamp>2016-04-11T20:46:26Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">{{Landmark Design
+|id=Landmark Design:Cut Alabaster (Replicator)
+|creates=Cut Alabaster
+|crafting station=Replicator
+|quantity=750
+}}
+{{Landmark Design Component Data
+|quantity=250
+|component=Alabaster
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>1nnl94jahik8xaj1p1l8z0jzexf2etw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Preload:Landmark Design Data</title>
+    <ns>0</ns>
+    <id>7257</id>
+    <revision>
+      <id>28538</id>
+      <parentid>28520</parentid>
+      <timestamp>2016-04-11T20:43:38Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="282">&lt;includeonly&gt;&lt;no&lt;includeonly&gt;&lt;/includeonly&gt;include&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/no&lt;includeonly&gt;&lt;/includeonly&gt;include&gt;&lt;/includeonly&gt;&lt;noinclude&gt;
+Contenu inséré par défaut lors de l'ajout d'un plan via le formulaire
+[[Catégorie:Formulaires]]
+&lt;/noinclude&gt;</text>
+      <sha1>dt7uubo6w8rj0htfc9z7ixl1119u9c9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Burled Wood (Replicator)</title>
+    <ns>0</ns>
+    <id>7259</id>
+    <revision>
+      <id>28546</id>
+      <timestamp>2016-04-11T21:01:33Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Burled Wood (Replicator) |creates=Cut Burled Wood |quantity=750 |crafting station=Replicator }} {{Landmark Design Component Data... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="287">{{Landmark Design
+|id=Landmark Design:Cut Burled Wood (Replicator)
+|creates=Cut Burled Wood
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Burled Wood
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>jg0rjszewk3vjluz8j7qhqsgf46ukio</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Cut Burled Wood (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7260</id>
+    <revision>
+      <id>28548</id>
+      <timestamp>2016-04-11T21:03:29Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Cut Burled Wood (Lumen Station) |creates=Cut Burled Wood |quantity=12000 |crafting station=Lumen Station }} {{Landmark Design Compone... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="290">{{Landmark Design
+|id=Landmark Design:Cut Burled Wood (Lumen Station)
+|creates=Cut Burled Wood
+|quantity=12000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>j51oo6tlz6w25cq91b4amm42djbs2o5</sha1>
+    </revision>
+  </page>
+    <page>
+    <title>Landmark Design:Black Cloth (Replicator)</title>
+    <ns>0</ns>
+    <id>7341</id>
+    <revision>
+      <id>28792</id>
+      <parentid>28791</parentid>
+      <timestamp>2016-04-16T18:15:20Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="421">{{Landmark Design
+|id=Landmark Design:Black Cloth (Replicator)
+|creates=Black Cloth
+|quantity=750
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=50
+|component=Tree Fiber
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Emerald
+}}
+{{Landmark Design Component Data
+|quantity=25
+|component=Cut Diamond
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>758tq0ifow1lje8gt787kgalmknzz5u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Black Cloth (Lumen Station)</title>
+    <ns>0</ns>
+    <id>7342</id>
+    <revision>
+      <id>28794</id>
+      <parentid>28793</parentid>
+      <timestamp>2016-04-16T18:15:20Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <minor/>
+      <comment>1 révision importée : Textiles (corrections)</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="280">{{Landmark Design
+|id=Landmark Design:Black Cloth (Lumen Station)
+|creates=Black Cloth
+|quantity=9000
+|crafting station=Lumen Station
+}}
+{{Landmark Design Component Data
+|quantity=130
+|component=Lumen
+}}&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>htle3qj57pcz4nj3na1adl3krez2prh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Landmark Design:Molten Iron Orb (Replicator)</title>
+    <ns>0</ns>
+    <id>7354</id>
+    <revision>
+      <id>28814</id>
+      <timestamp>2016-04-18T21:25:29Z</timestamp>
+      <contributor>
+        <username>Daynos de Nory</username>
+        <id>10</id>
+      </contributor>
+      <comment>Page créée avec « {{Landmark Design |id=Landmark Design:Molten Iron Orb (Replicator) |creates=Molten Iron Orb |quantity=1 |crafting station=Replicator }} {{Landmark Design Component Data |q... »</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="509">{{Landmark Design
+|id=Landmark Design:Molten Iron Orb (Replicator)
+|creates=Molten Iron Orb
+|quantity=1
+|crafting station=Replicator
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Smelted Copper
+}}
+{{Landmark Design Component Data
+|quantity=750
+|component=Cut Agate
+}}
+{{Landmark Design Component Data
+|quantity=1
+|component=Adventure Essence
+}}
+{{Landmark Design Component Data
+|quantity=3
+|component=Fire Essence
+}}
+&lt;noinclude&gt;{{Landmark Design Data}}[[Catégorie:Landmark Design]]&lt;/noinclude&gt;</text>
+      <sha1>8m5amwzyu9tkbe8oezvcfgq5qtbvay2</sha1>
+    </revision>
+  </page>
+</mediawiki>
